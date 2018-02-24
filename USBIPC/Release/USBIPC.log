@@ -1,0 +1,25 @@
+﻿生成启动时间为 2017-06-26 17:37:18。
+     1>项目“C:\Users\lenovo\Desktop\old\USBIPC\USBIPC\USBIPC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D USBIPC_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt usbip.c
+         usbip.c
+     1>usbip.c(249): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(191) : 参见“strncpy”的声明
+     1>usbip.c(580): warning C4172: 返回局部变量或临时变量的地址
+     1>usbip.c(583): warning C4172: 返回局部变量或临时变量的地址
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\Desktop\old\USBIPC\Release\USBIPC.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\Desktop\old\USBIPC\Release\USBIPC.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\Desktop\old\USBIPC\Release\USBIPC.lib" /MACHINE:X86 /SAFESEH /DLL Release\getopt.obj
+         Release\getopt_long.obj
+         Release\usbip.obj
+         Release\usbip_common.obj
+         Release\usbip_network.obj
+         Release\usbip_vbus_ui.obj
+            正在创建库 C:\Users\lenovo\Desktop\old\USBIPC\Release\USBIPC.lib 和对象 C:\Users\lenovo\Desktop\old\USBIPC\Release\USBIPC.exp
+         正在生成代码
+         已完成代码的生成
+         USBIPC.vcxproj -> C:\Users\lenovo\Desktop\old\USBIPC\Release\USBIPC.dll
+     1>已完成生成项目“C:\Users\lenovo\Desktop\old\USBIPC\USBIPC\USBIPC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.20
